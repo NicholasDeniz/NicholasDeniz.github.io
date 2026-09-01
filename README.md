@@ -5,11 +5,11 @@ This portfolio will showcase the skills I have learned throughout the computer s
 
 # Artifacts
 
-### Travlr Getaway's
+### Travlr Getaways
 
 Travlr Getaway's is a full stack web application that I will enhance within the Software Engineering and Design category.
 
-[Go to Travlr Getaway's repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development)
+[Go to Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development)
 
 ### Grazioso Salvare
 
