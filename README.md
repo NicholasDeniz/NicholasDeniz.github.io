@@ -5,14 +5,14 @@ This portfolio will showcase the skills I have learned throughout the computer s
 
 # Artifacts
 
-### Travlr Getaways
+### Travlr Getaway's
 
-Travlr Getaways is a full stack web application that I will enhance within the Software Engineering and Design category.
+Travlr Getaway's is a full stack web application that I will enhance within the Software Engineering and Design category.
 
-[Go to Travlr Getaways repo](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development)
+[Go to Travlr Getaway's repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development)
 
 ### Grazioso Salvare
 
 Grazioso Salvare is a Python and MongoDB application that I will enhance within two categories, Algorithms and Data Structures and also Databases. 
 
-[Go to Grazioso Salvare repo](https://github.com/NicholasDeniz/CS-340)
+[Go to Grazioso Salvare repository](https://github.com/NicholasDeniz/CS-340)
