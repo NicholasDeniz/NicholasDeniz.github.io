@@ -3,9 +3,9 @@
 
 This portfolio will showcase the skills I have learned throughout the computer science program. 
 
-### Professional Self-Assesment
+# Professional Self-Assesment
 
-### Code Review
+# Code Review
 
 My code review goes through the original Travlr Getaways and Grazioso Salvare projects. I explain how the artifacts work, find weaknesses and ways to improve it, and describe the enhancements I plan to make. 
 
