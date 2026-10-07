@@ -21,7 +21,7 @@ Travlr Getaway's is a full stack web application that I will enhance within the 
 
 [Go to the Original Travlr Getaways code](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/module7),<br>
 
-[Go to Enhancement One Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment),
+[Go to Enhancement One Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment)
 
 ### Grazioso Salvare: Enhancement Two
 
@@ -35,6 +35,8 @@ Grazioso Salvare is a Python and MongoDB application that I will enhance within 
 
 Grazioso Salvare is a Python and MongoDB application that I will enhance within the Databases category. I will build off of enhancement two because I'm using the same artifact. I enhanced the Grazioso Salvare dashboard and how it retrieves information from MongoDB. This includes reusable filters, retrieving a page of records at a time, returning the picked fields only, and request validation. I also included a way to compare query performance before and after adding an index.
 
-[Go to Original Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal)<br>
-[Go to Enhancement Two Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)<br>
+[Go to Original Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal)<br>,
+
+[Go to Enhancement Two Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)<br>,
+
 [Go to Enhancement Three Grazioso Salvare repository]()
