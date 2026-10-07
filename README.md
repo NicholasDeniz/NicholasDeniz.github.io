@@ -17,17 +17,17 @@ My code review goes through the original Travlr Getaways and Grazioso Salvare pr
 
 Travlr Getaway's is a full stack web application that I will enhance within the Software Engineering and Design category.
 
-[Go to the Original Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development)
+[Go to the Original Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development),
 
-[Go to the Original Travlr Getaways code](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/module7)
+[Go to the Original Travlr Getaways code](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/module7),
 
-[Go to Enhancement One Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment)
+[Go to Enhancement One Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment),
 
 ### Grazioso Salvare: Enhancement Two
 
 Grazioso Salvare is a Python and MongoDB application that I will enhance within the Algorithms and Data Structures category. I enhanced the Grazioso dashboard by adding a merge sort algorithm. Users are ale to sort animal records by age, name, or breed in either ascending or descending order to provide a better experience for the user. It also compares the merge sort and bubble sort to give reason why I chose merge sort. 
 
-[Go to Original Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal)
+[Go to Original Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal),
 
 [Go to Enhancement Two Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)
 
