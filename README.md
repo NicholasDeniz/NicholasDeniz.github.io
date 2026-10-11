@@ -3,9 +3,9 @@
 
 This portfolio will showcase the skills I have learned throughout the computer science program. 
 
-# Professional Self-Assesment
+# Professional Self-Assessment
 
-[Go to Professional Self-Assesment]()
+[Go to Professional Self-Assessment]()
 
 # Code Review
 
@@ -17,7 +17,7 @@ My code review goes through the original Travlr Getaways and Grazioso Salvare pr
 
 ### Travlr Getaways: Enhancemnt One
 
-Travlr Getaway's is a full stack web application that I enhanced within the Software Engineering and Design category.
+Travlr Getaways is a full stack web application that I enhanced within the Software Engineering and Design category.
 
 [Go to the Original Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development)<br>
 
@@ -29,7 +29,7 @@ Travlr Getaway's is a full stack web application that I enhanced within the Soft
 
 ### Grazioso Salvare: Enhancement Two
 
-Grazioso Salvare is a Python and MongoDB application that I enhanced within the Algorithms and Data Structures category. I enhanced the Grazioso dashboard by adding a merge sort algorithm. Users are ale to sort animal records by age, name, or breed in either ascending or descending order to provide a better experience for the user. It also compares the merge sort and bubble sort to give reason why I chose merge sort. 
+Grazioso Salvare is a Python and MongoDB application that I enhanced within the Algorithms and Data Structures category. I enhanced the Grazioso dashboard by adding a merge sort algorithm. Users are able to sort animal records by age, name, or breed in either ascending or descending order to provide a better experience for the user. It also compares the merge sort and bubble sort to give reason why I chose merge sort. 
 
 [Go to Original Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal)<br>
 
