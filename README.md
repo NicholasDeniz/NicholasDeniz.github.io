@@ -5,6 +5,8 @@ This portfolio will showcase the skills I have learned throughout the computer s
 
 # Professional Self-Assesment
 
+[Go to Professional Self-Assesment]()
+
 # Code Review
 
 My code review goes through the original Travlr Getaways and Grazioso Salvare projects. I explain how the artifacts work, find weaknesses and ways to improve it, and describe the enhancements I plan to make. 
@@ -33,6 +35,8 @@ Grazioso Salvare is a Python and MongoDB application that I will enhance within 
 
 [Go to Enhancement Two Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)<br>
 
+[Got to Enhancement Two Grazioso Salvare Narrative](https://github.com/NicholasDeniz/NicholasDeniz.github.io/blob/main/CS-499%20Capstone%20Grazioso%20Salvare%20Algorithm%20and%20Data%20Structure%20Enhancement%20Narrative.docx)<br>
+
 ### Grazioso Salvare: Enhancement Three
 
 Grazioso Salvare is a Python and MongoDB application that I will enhance within the Databases category. I will build off of enhancement two because I'm using the same artifact. I enhanced the Grazioso Salvare dashboard and how it retrieves information from MongoDB. This includes reusable filters, retrieving a page of records at a time, returning the picked fields only, and request validation. I also included a way to compare query performance before and after adding an index.
@@ -41,4 +45,6 @@ Grazioso Salvare is a Python and MongoDB application that I will enhance within 
 
 [Go to Enhancement Two Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)<br>
 
-[Go to Enhancement Three Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalavre-EnhancementThree)
+[Go to Enhancement Three Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalavre-EnhancementThree)<br>
+
+[Got to Enhancement Three Grazioso Salvare Narrative](https://github.com/NicholasDeniz/NicholasDeniz.github.io/blob/main/CS-499%20Capstone%20Grazioso%20Salvare%20Databases%20Enhancement%20Narrative.docx)<br>
