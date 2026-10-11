@@ -39,4 +39,4 @@ Grazioso Salvare is a Python and MongoDB application that I will enhance within 
 
 [Go to Enhancement Two Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)<br>
 
-[Go to Enhancement Three Grazioso Salvare repository]()
+[Go to Enhancement Three Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalavre-EnhancementThree)
