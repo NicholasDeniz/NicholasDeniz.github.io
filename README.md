@@ -21,7 +21,9 @@ Travlr Getaway's is a full stack web application that I will enhance within the 
 
 [Go to the Original Travlr Getaways code](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/module7)<br>
 
-[Go to Enhancement One Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment)
+[Go to Enhancement One Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment)<br>
+
+[Got to Enhancement One Travlr Getaways Narrative](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalavre-EnhancementThree)<br>
 
 ### Grazioso Salvare: Enhancement Two
 
