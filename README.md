@@ -17,7 +17,7 @@ My code review goes through the original Travlr Getaways and Grazioso Salvare pr
 
 ### Travlr Getaways: Enhancemnt One
 
-Travlr Getaway's is a full stack web application that I will enhance within the Software Engineering and Design category.
+Travlr Getaway's is a full stack web application that I enhanced within the Software Engineering and Design category.
 
 [Go to the Original Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development)<br>
 
@@ -29,7 +29,7 @@ Travlr Getaway's is a full stack web application that I will enhance within the 
 
 ### Grazioso Salvare: Enhancement Two
 
-Grazioso Salvare is a Python and MongoDB application that I will enhance within the Algorithms and Data Structures category. I enhanced the Grazioso dashboard by adding a merge sort algorithm. Users are ale to sort animal records by age, name, or breed in either ascending or descending order to provide a better experience for the user. It also compares the merge sort and bubble sort to give reason why I chose merge sort. 
+Grazioso Salvare is a Python and MongoDB application that I enhanced within the Algorithms and Data Structures category. I enhanced the Grazioso dashboard by adding a merge sort algorithm. Users are ale to sort animal records by age, name, or breed in either ascending or descending order to provide a better experience for the user. It also compares the merge sort and bubble sort to give reason why I chose merge sort. 
 
 [Go to Original Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal)<br>
 
@@ -39,7 +39,7 @@ Grazioso Salvare is a Python and MongoDB application that I will enhance within 
 
 ### Grazioso Salvare: Enhancement Three
 
-Grazioso Salvare is a Python and MongoDB application that I will enhance within the Databases category. I will build off of enhancement two because I'm using the same artifact. I enhanced the Grazioso Salvare dashboard and how it retrieves information from MongoDB. This includes reusable filters, retrieving a page of records at a time, returning the picked fields only, and request validation. I also included a way to compare query performance before and after adding an index.
+Grazioso Salvare is a Python and MongoDB application that I enhanced within the Databases category. I built off of enhancement two because I'm using the same artifact. I enhanced the Grazioso Salvare dashboard and how it retrieves information from MongoDB. This includes reusable filters, retrieving a page of records at a time, returning the picked fields only, and request validation. I also included a way to compare query performance before and after adding an index.
 
 [Go to Original Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal)<br>
 
