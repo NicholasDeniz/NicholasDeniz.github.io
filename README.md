@@ -1,6 +1,6 @@
 # Nicholas Deniz - CS 499 Capstone ePortfolio
 
-This portfolio will showcase the skills I have learned throughout the computer science program. 
+This portfolio showcases the skills I have learned throughout the computer science program. 
 
 # Professional Self-Assessment
 
