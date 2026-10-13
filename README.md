@@ -24,7 +24,7 @@ Travlr Getaways is a full stack web application that I enhanced within the Softw
 
 [Go to Enhancement One Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment)<br>
 
-[Got to Enhancement One Travlr Getaways Narrative](https://github.com/NicholasDeniz/NicholasDeniz.github.io/blob/main/CS499-Capstone-Travlr-Enhancement-Narrative.docx)<br>
+[Got to Enhancement One Travlr Getaways Narrative](travlr-narrative.html)<br>
 
 ### Grazioso Salvare: Enhancement Two
 
@@ -34,7 +34,7 @@ Grazioso Salvare is a Python and MongoDB application that I enhanced within the 
 
 [Go to Enhancement Two Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)<br>
 
-[Got to Enhancement Two Grazioso Salvare Narrative](https://github.com/NicholasDeniz/NicholasDeniz.github.io/blob/main/CS-499%20Capstone%20Grazioso%20Salvare%20Algorithm%20and%20Data%20Structure%20Enhancement%20Narrative.docx)<br>
+[Got to Enhancement Two Grazioso Salvare Narrative](algorithm-narrative.html)<br>
 
 ### Grazioso Salvare: Enhancement Three
 
@@ -46,4 +46,4 @@ Grazioso Salvare is a Python and MongoDB application that I enhanced within the 
 
 [Go to Enhancement Three Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalavre-EnhancementThree)<br>
 
-[Got to Enhancement Three Grazioso Salvare Narrative](https://github.com/NicholasDeniz/NicholasDeniz.github.io/blob/main/CS-499%20Capstone%20Grazioso%20Salvare%20Databases%20Enhancement%20Narrative.docx)<br>
+[Got to Enhancement Three Grazioso Salvare Narrative](databases-narrative.html)<br>
