@@ -24,7 +24,7 @@ Travlr Getaways is a full stack web application that I enhanced within the Softw
 
 [Go to Enhancement One Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment)<br>
 
-[Got to Enhancement One Travlr Getaways Narrative](travlr-narrative.html)<br>
+[Got to Enhancement One Travlr Getaways Narrative](travlr-narrative.md)<br>
 
 ### Grazioso Salvare: Enhancement Two
 
