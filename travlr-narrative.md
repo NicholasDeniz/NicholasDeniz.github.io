@@ -6,7 +6,7 @@
 [Back to portfolio](https://nicholasdeniz.github.io/)
 
 ## Travlr Getaways:
-Travlr Getaways is the artifact I have chosen to enhance to fulfil the first enhancement category Software Design/Engineering. It is a full stack application that I worked on in CS-465 Full Stack Development earlier in 2026. It uses the MEAN stack which uses MongoDB for the database, Express.js and Node.js for the server, and Angular for the frontend. It originally let any users view, edit, delete, and add trips. It possessed login logic, JWT authentication, and let the user manage trip information. 
+Travlr Getaways is the artifact I have chosen to enhance to fulfil the first enhancement category Software Design/Engineering. It is a full stack application that I worked on in CS-465 Full Stack Development earlier in 2026. It uses the MEAN stack which uses MongoDB for the database, Express.js and Node.js for the server, and Angular for the frontend. The original application only let the user view trips and let authenticated users add or update trips. It also already included login functions and JWT authentication. My enhancement added role based permissions, customer bookings, and trip deletion.
 
 ## Why I selected this Artifact and How I then Improved it:
 I selected Travlr because it was a fully completed full stack project that I documented on Github. It included a frontend, authentication, a database, and APIs. It was a good artifact that showed my skills in software design and engineering. Showing that I can understand a full stack application and improve it. 
