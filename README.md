@@ -1,4 +1,4 @@
-# Nicholas Deniz - CS 499 Capstone ePortfolio
+# CS 499 Capstone ePortfolio
 
 This portfolio showcases the skills I have learned throughout the computer science program. 
 
