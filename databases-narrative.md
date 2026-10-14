@@ -29,11 +29,15 @@ I identified one specific index and compared query execution before and after in
 
 I compared the same Water Rescue request before and after creating the index. I searched for dogs under the water rescue criteria, the water rescue breeds, Intact Female, and an age from 26 to 156 weeks. Both measurements used the same returned fields, _id ordering, and first page limit of 10. The measurement code ran it three times and took the median time. 
 
-Measurement	Before Index	After Index
-Animals returned on page	10	10
-Animal records examined	4,222	17
-Index entries examined	4,222	22
-Median time	4 ms	0 ms
+| Measurement |	Before Index |	After Index |
+
+| Animals returned on page | 10 | 10 |
+
+| Animal records examined | 4,222 | 17 |
+
+| Index entries examined | 4,222 | 22 |
+
+| Median time | 4 ms | 0 ms |
 	
 The results are in index_before.json and index_comparison.json. The comparison code checked that the total number of matching animals and the real first page records stayed the same. MongoDB examined about 99 percent fewer animal records after the index was added. The 22 index entries are lookup entries examined. 
 
