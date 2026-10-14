@@ -15,7 +15,7 @@ npm start
 
 Load sample trips before starting server:
 
-node -r dotenc/config app_api/models/seed.js
+node -r dotenv/config app_api/models/seed.js
 
 The seed command replaces existing trips. So use it only for a fresh start.
 
