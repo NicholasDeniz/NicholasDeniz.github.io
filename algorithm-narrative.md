@@ -3,6 +3,8 @@
 ## Professor Satish Penmatsa
 ## 9/25/2026
 
+[Back to portfolio](https://nicholasdeniz.github.io/)
+
 ## Grazioso Salvare Description:
 The artifact I chose for my second enhancement is the Grazioso Salvare animal rescue dashboard. I originally worked on it in CS 340 Client Server Development. I enhanced the application for CS 499 in September 2026. The dashboard uses Python, Dash, pandas, Plotly, Dash Leaflet, and MongoDB to retrieve and display animal shelter records. Users can filter animal records by different rescue categories like water rescue, mountain or wilderness rescue, and disaster or individual tracking. The application displays those results in a table, a breed chart, and a map.
 	
