@@ -8,7 +8,7 @@ This portfolio showcases the skills I have learned throughout the computer scien
 
 ## Setup Instructions
 
-[Go to Setup Intructions]()
+[Go to Setup Intructions](setup-instructions.md)
 
 ## Code Review
 
