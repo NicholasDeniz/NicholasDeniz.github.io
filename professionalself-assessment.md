@@ -10,7 +10,7 @@ consider other questions. Who should be able to use the feature? What if an inpu
 like these to my two projects. 
 
 ## Collaboration and Feedback
-My capstone enhancements were my own work but I acted like there was a development team I had to work with. I organized code into separate files depending on their use, used Git to keep track of changes, and explained
+My capstone enhancements was an individual project but I organized and documented my worker so another developer would have a better time reviewing it. I organized code into separate files depending on their use, used Git to keep track of changes, and explained
 decisions through inline comments, my code review, and narratives. These practices would allow another developer to have an easier time reviewing and understanding the work I have done.
 
 I used professor feedback when fixing up my narratives. For Travlr I strengthened the explanation for testing and the evidence for permissions. For the algorithms enhancement I explained why I implemented the merge sort even 
@@ -18,14 +18,12 @@ when Python already has efficient built-in sorting. This helped me understand th
 questions, listen to feedback, and explaining my thought process well. 
 
 ## Communication
-The code review and enhancement narratives gave me practice for communicating with different audiences. A developer would need to understand a sort function or database query. A person not knowledge of this would need the 
-portfolio explained in a more non-technical light and be shown why the enhancements matter.
+The code review and enhancement narratives gave me practice for communicating with different audiences. A developer would need to understand a sort function or database query. A person not knowledge of this would need the portfolio explained in a more non-technical light and be shown why the enhancements matter.
 
-I learned to connect technical details to the evidence of them. For example,  checking booking ownership means that a customer would be the only one able to cancel their own bookings. Getting one database page at a time 
+I learned to connect technical details to the evidence of them. For example, checking booking ownership means that a customer would be the only one able to cancel their own bookings. Getting one database page at a time 
 lets the application not have to load all matching animals records before displaying the results. 
 
-I learned to explain the limits of my work. My sorting test compared the merge sort and bubble sort. It didn't prove that it is faster than Python's built in sorting. My database test measures a specific query, rather than
-having the load time of the entire dashboard. Explaining these distinctions helps the audience better understand what the evidence actually supports. 
+I learned to explain the limits of my work. My sorting test compared the merge sort and bubble sort. It didn't prove that it is faster than Python's built in sorting. My database test measures a specific query, rather than having the load time of the entire dashboard. Explaining these distinctions helps the audience better understand what the evidence actually supports. 
 
 ## Algorithms and Working with Data
 The algorithms enhancement helped me understand how an algorithms design choices affect performance and accuracy. I implemented the merge sort to organize animal records by age, name, or breed. I also took into consideration equal values,
