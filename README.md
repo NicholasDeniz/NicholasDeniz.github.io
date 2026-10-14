@@ -4,7 +4,7 @@ This portfolio showcases the skills I have learned throughout the computer scien
 
 ## Professional Self-Assessment
 
-[Go to Professional Self-Assessment]()
+[Go to Professional Self-Assessment](professionalself-assessment.md)
 
 ## Code Review
 
