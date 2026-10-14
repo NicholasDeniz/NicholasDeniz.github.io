@@ -14,7 +14,7 @@ My code review goes through the original Travlr Getaways and Grazioso Salvare pr
 
 ## Artifacts
 
-### Travlr Getaways: Enhancemnt One
+### Travlr Getaways: Enhancement One
 
 Travlr Getaways is a full stack web application that I enhanced within the Software Engineering and Design category.
 
