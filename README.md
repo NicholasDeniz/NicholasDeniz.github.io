@@ -6,6 +6,10 @@ This portfolio showcases the skills I have learned throughout the computer scien
 
 [Go to Professional Self-Assessment](professionalself-assessment.md)
 
+## Setup Instructions
+
+[Go to Setup Intructions]()
+
 ## Code Review
 
 My code review goes through the original Travlr Getaways and Grazioso Salvare projects. I explain how the artifacts work, find weaknesses and ways to improve it, and describe the enhancements I plan to make. 
