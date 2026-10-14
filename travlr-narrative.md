@@ -2,11 +2,13 @@
 ## CS-499 Capstone Travlr Software Design/Engineering Enhancement Narrative
 ## Professor Satish Penmatsa
 ## 9/19/2026
+
+[Back to portfolio](https://nicholasdeniz.github.io/)
+
 ## Travlr Getaways:
-
 Travlr Getaways is the artifact I have chosen to enhance to fulfil the first enhancement category Software Design/Engineering. It is a full stack application that I worked on in CS-465 Full Stack Development earlier in 2026. It uses the MEAN stack which uses MongoDB for the database, Express.js and Node.js for the server, and Angular for the frontend. It originally let any users view, edit, delete, and add trips. It possessed login logic, JWT authentication, and let the user manage trip information. 
-## Why I selected this Artifact and How I then Improved it:
 
+## Why I selected this Artifact and How I then Improved it:
 I selected Travlr because it was a fully completed full stack project that I documented on Github. It included a frontend, authentication, a database, and APIs. It was a good artifact that showed my skills in software design and engineering. Showing that I can understand a full stack application and improve it. 
 
 The main idea of the enhancement was to add customer and admin roles. This required changes to MongoDB schemas, JWT, Express middleware, routes, controllers, components, templates, and navigation. The user model stores a customer or admin role. New accounts would be given a customer role by default. This follows the security mindset of giving users the least number of permissions. The role would be included in the user’s JSON Web Token. When the server receives a request, it will verify the token and check the role before allowing the request to continue. Admin operations are also protected on the server. Only an admin can add, update, or delete any of the trips. Customers also have their own protected booking operations. This was a secure way to stop those making unauthorized requests to the API. Letting the server make the final decision to allow it or not. 
@@ -41,9 +43,9 @@ Angular data service. The TripDataService defines HTTP operations. It has method
 
 Trip card and booking components. The TripCardComponent has actions from the user specified. Customers can book a trip, admins can edit, add, or delete a trip. Visitors would only be able to view the trips. The MyBookingsComponent gets the current customers booking and follows cancellation. It would show success and error messages and refresh the booking list after a deletion. 
 
-Navigation and templates. The Angular navbar and component templates would use the authentication service to show role-based navigation and controls. Customers can see My Bookings link and booking button. 
-## Course Outcomes:
+Navigation and templates. The Angular navbar and component templates would use the authentication service to show role-based navigation and controls. Customers can see My Bookings link and booking button.
 
+## Course Outcomes:
 Outcome One. The code review, Git history, notes and comments, and enhancement documentation let another developer evaluate the design and understand the code. The separation of routes, controllers, models, services, and components makes it easier to maintain and review. 
 
 Outcome Two. This narrative, the code review, naming conventions, comments, and documentation explain what changed, and how another developer can see those results.
@@ -51,8 +53,8 @@ Outcome Two. This narrative, the code review, naming conventions, comments, and 
 Outcome Four. The work integrates Angular, TypeScript, Node.js, Express, MongoDB, Mongoose, REST, JWT authentication, and Git.
 
 Outcome Five. The server prevents role selection, verifies authorization before controllers run, takes and understand booking ownership from the JWT, blocks cross customer deletions, reject duplicate bookings, and prevents deletion of referenced trips. The private env file is excluded from the folder.
-## Reflection:
 
+## Reflection:
 The lesson from this enhancement was the difference between authentication and authorization. A valid token makes sure of who sent the request, but it doesn’t make sure that the user can make every action. Adding a role to the token made the difference known while the middleware brought the permission rules alive. 
 
 I also learned that ownership should be part of the database. The interface can hide other customers’ bookings, but a request can bypass the UI. Combining the booking id and authentication owner id in the delete query makes it a condition. This approach is better than retrieving a record, trusting a user id, and checking ownership later. 
