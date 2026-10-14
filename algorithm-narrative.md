@@ -30,8 +30,11 @@ To test and compare the enhancement I create compare_sorts.py. This file generat
 
 ## Performance Results:
 Number of records	|    Merge sort		     |    Bubble sort
+
 200                                    |    0.598 milliseconds    |    1.483 milliseconds
+
 800                                    |    3.012 milliseconds    |    26.880 milliseconds
+
 1,500                                |    6.032 milliseconds    |    99.534 milliseconds
 
 These results support the difference in how the algorithms scale. As the number of records increased the bubble sort needed a lot more time than the merge sort. This also showed that the Python files were successful and that the comparison assertion passed. It also proved that the ascending order and valid records were correct. These checks helped show that the algorithm can handle these kinds of records in the dashboard. 
