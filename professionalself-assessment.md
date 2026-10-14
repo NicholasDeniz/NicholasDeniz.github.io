@@ -1,3 +1,5 @@
+[Back to portfolio](https://nicholasdeniz.github.io/)
+
 ## Professional Self-Assessment
 The work I have done in the Computer Science program helped me become confident when building and working with applications, data, and explaining technical decisions. My career goal is to become a software engineer or a 
 data analyst. I like work where I have to break things down and find/solve the problem, organize data, and find improvements. This portfolio showed my progress in improving two projects, Travlr Getaways and the 
