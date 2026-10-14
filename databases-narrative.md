@@ -2,6 +2,9 @@
 ## CS-499 Capstone Grazioso Salvare Databases Enhancement Narrative
 ## Professor Satish Penmatsa
 ## 10/3/2026
+
+[Back to portfolio](https://nicholasdeniz.github.io/)
+
 ## Artifact Description and Reason for Choice:
 The artifact I chose for Enhancement Three is the Grazioso Salvare animal rescue dashboard. I originally worked on it in CS 340 Client/Server Development in April 2026 and have improved upon it in CS 499 during September and October of 2026. The application uses Python and MongoDB to retrieve animal records. Dash makes certain things possible like the interactive dashboard, which can display a table, a breed pie chart, and a map. Users can choose water rescue, mountain or wilderness rescue, or disaster or individual tracking to get animals that meet the rescue criteria. 
 
