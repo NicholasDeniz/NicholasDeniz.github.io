@@ -10,7 +10,7 @@ consider other questions. Who should be able to use the feature? What if an inpu
 like these to my two projects. 
 
 ## Collaboration and Feedback
-My capstone enhancements was an individual project but I organized and documented my worker so another developer would have a better time reviewing it. I organized code into separate files depending on their use, used Git to keep track of changes, and explained
+While my capstone enhancements was an individual project, I organized and documented my worker so another developer would have a better time reviewing it. I organized code into separate files depending on their use, used Git to keep track of changes, and explained
 decisions through inline comments, my code review, and narratives. These practices would allow another developer to have an easier time reviewing and understanding the work I have done.
 
 I used professor feedback when fixing up my narratives. For Travlr I strengthened the explanation for testing and the evidence for permissions. For the algorithms enhancement I explained why I implemented the merge sort even 
