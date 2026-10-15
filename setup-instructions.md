@@ -9,15 +9,13 @@
 The application uses the travlr database.
 
 ## Run Application
-Load sample trips before starting server:
-
-node -r dotenv/config app_api/models/seed.js
-
-The seed command replaces existing trips. So use it only for a fresh start.
+Load sample trips before starting server. The seed command replaces existing trips. So use it only for a fresh start.
 
 Open a terminal in app.js:
 
 npm ci
+
+node -r dotenv/config app_api/models/seed.js
 
 npm start
 
