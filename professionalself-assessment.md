@@ -39,7 +39,8 @@ Merge sort has a time complexity of O(n log n) but it needs more memory. When co
 In CS 300, I compared vectors, hash tables, and binary search trees for a course planning project. The project had to display courses in alphanumeric order and allow users to look up course titles and prerequisites. I used a binary search tree because in order traversal was more inline with what was needed for the ordered course list. I also had helper functions to validate spaces and capitalization in the input. This project taught me the importance of data structure and the quality of data being used. This project helped me with the algorithm and databases enhancements as I had to keep my attention on sorting, missing or invalid values, and design tradeoffs.
 
 Outside the portfolio projects I had Python experience working with pandas to combine datasets, remove duplicates, handle missing data, and summarize data. That work helped me understand how useful analysis is when working with properly prepared data. 
-Software Engineering and Databases
+
+# Software Engineering and Databases
 
 CS 320 taught me the importance of testing. I used JUnit to test contact, task, and appointment classes and services against their requirements. Which included limits on field lengths, needed information, and valid dates. Separating the application into separate classes and services made it easier to test more individual units. This class taught me to take requirements and put checks on them that could be reused even after the code changes. It helped me understand that testing should have invalid inputs as well as valid input that should work. 
 
