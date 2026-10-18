@@ -55,6 +55,10 @@ Outcome Four. The work integrates Angular, TypeScript, Node.js, Express, MongoDB
 Outcome Five. The server prevents role selection, verifies authorization before controllers run, takes and understand booking ownership from the JWT, blocks cross customer deletions, reject duplicate bookings, and prevents deletion of referenced trips. The private env file is excluded from the folder.
 
 ## Reflection:
+The final implementation decreased the scope of the booking feature than the initial plan explained in my code review. The code review talked about broader booking managements like admins managing the customers’ booking. The completed enhancement lets customers create, view, and cancel their own bookings, while admins manage the shared trips. Making changes to a existing booking and letting admins manage all customer bookings would be a future enhancement.
+
+The completed features show the main design and security goals through separate trip and booking set ups, server-side role checks, customer ownership limits, duplicate booking rejection, and protection against deleting trips with an existing booking. 
+
 The lesson from this enhancement was the difference between authentication and authorization. A valid token makes sure of who sent the request, but it doesn’t make sure that the user can make every action. Adding a role to the token made the difference known while the middleware brought the permission rules alive. 
 
 I also learned that ownership should be part of the database. The interface can hide other customers’ bookings, but a request can bypass the UI. Combining the booking id and authentication owner id in the delete query makes it a condition. This approach is better than retrieving a record, trusting a user id, and checking ownership later. 
