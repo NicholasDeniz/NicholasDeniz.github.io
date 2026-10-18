@@ -30,6 +30,8 @@ Travlr Getaways is a full stack web application that I enhanced within the Softw
 
 [Go to Enhancement One Travlr Getaways Narrative](travlr-narrative.md)<br>
 
+[Download the full Travlr narrative from Microsoft Word with screenshots](CS499-Capstone-Travlr-Enhancement-Narrative.docx)<br>
+
 ## Grazioso Salvare: Enhancement Two
 
 Grazioso Salvare is a Python and MongoDB application that I enhanced within the Algorithms and Data Structures category. I enhanced the Grazioso dashboard by adding a merge sort algorithm. Users are able to sort animal records by age, name, or breed in either ascending or descending order to provide a better experience for the user. It also compares the merge sort and bubble sort to give reason why I chose merge sort. 
