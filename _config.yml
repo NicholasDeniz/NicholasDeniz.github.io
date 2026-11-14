@@ -1,0 +1,9 @@
+title: Nicholas Deniz
+description: Software engineer and SNHU Computer Science graduate. Full-stack applications, algorithms, and database design.
+url: https://nicholasdeniz.github.io
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - README.md

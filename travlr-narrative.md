@@ -1,9 +1,9 @@
-## Nicholas Deniz
-## CS-499 Capstone Travlr Software Design/Engineering Enhancement Narrative
-## Professor Satish Penmatsa
-## 9/19/2026
-
-[Back to portfolio](https://nicholasdeniz.github.io/)
+---
+layout: default
+title: Travlr Getaways
+category: Software design & engineering · CS 499
+description: Customer bookings, server-side role checks, and ownership protection. Academic enhancement narrative · September 2026.
+---
 
 ## Travlr Getaways:
 Travlr Getaways is the artifact I have chosen to enhance to fulfil the first enhancement category Software Design/Engineering. It is a full stack application that I worked on in CS-465 Full Stack Development earlier in 2026. It uses the MEAN stack which uses MongoDB for the database, Express.js and Node.js for the server, and Angular for the frontend. The original application only let the user view trips and let authenticated users add or update trips. It also already included login functions and JWT authentication. My enhancement added role based permissions, customer bookings, and trip deletion.
@@ -67,4 +67,4 @@ The main challenge was keeping the client, API, and database in line with each o
 
 Another challenge was the amount of complicated work that I underestimated in this project. The original code also had a lot of bad error handling and defensive programming like not using try and catch and having bad naming conventions like q which I mostly improved. The original structure and code helped a lot in overcoming this challenge as I was able to build off and learn from it. The models, controllers, routes, services, and components were nicely organized, and I stayed within that structure. I also learned a lot from the original code which I implemented in this code like Observables, subscriptions, ChangeDetectorRef, Component input and output, role-based conditions, API access, refresh, Express middleware, JWT role, and more. There were also other features I thought about adding but too much time was needed with authorization, data ownership, and error handling. 
 
-The enhanced Travlr artifact is easier to understand and safer to use than the original version. Shared travel packages, customer owned booking data, and permissions rules. The project demonstrates I can improve an existing full stack application identify and correct weaknesses, make design tradeoffs and communicate the work to a technical audience. These skills are the main reason that this artifact should go into my ePortfolio. 
+The enhanced Travlr artifact is easier to understand and safer to use than the original version. Shared travel packages, customer owned booking data, and permissions rules. The project demonstrates I can improve an existing full stack application identify and correct weaknesses, make design tradeoffs and communicate the work to a technical audience. These skills are the main reason that this artifact should go into my ePortfolio.

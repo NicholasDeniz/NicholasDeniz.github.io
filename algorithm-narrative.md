@@ -1,9 +1,9 @@
-## Nicholas Deniz
-## CS-499 Capstone Grazioso Salvare Algorithm and Data Structure Enhancement Narrative
-## Professor Satish Penmatsa
-## 9/25/2026
-
-[Back to portfolio](https://nicholasdeniz.github.io/)
+---
+layout: default
+title: Stable sorting, tested carefully.
+category: Algorithms & data structures · CS 499
+description: A custom Python merge sort for the Grazioso Salvare dashboard. Academic enhancement narrative · September 2026.
+---
 
 ## Grazioso Salvare Description:
 The artifact I chose for my second enhancement is the Grazioso Salvare animal rescue dashboard. I originally worked on it in CS 340 Client Server Development. I enhanced the application for CS 499 in September 2026. The dashboard uses Python, Dash, pandas, Plotly, Dash Leaflet, and MongoDB to retrieve and display animal shelter records. Users can filter animal records by different rescue categories like water rescue, mountain or wilderness rescue, and disaster or individual tracking. The application displays those results in a table, a breed chart, and a map.
@@ -31,13 +31,11 @@ Merge sorts keep records with equal sorting value in the original order. The lef
 To test and compare the enhancement I create compare_sorts.py. This file generates repeatable animal records using a consistent random seed. It would compare the merge sort with a bubble sort. Before measuring the performances, I would check that both algorithms have the same ordered records. It would then measure each algorithm five times and display the median time. 
 
 ## Performance Results:
-Number of records	|    Merge sort		     |    Bubble sort
-
-200                                    |    0.598 milliseconds    |    1.483 milliseconds
-
-800                                    |    3.012 milliseconds    |    26.880 milliseconds
-
-1,500                                |    6.032 milliseconds    |    99.534 milliseconds
+| Number of records | Merge sort | Bubble sort |
+| --- | ---: | ---: |
+| 200 | 0.598 ms | 1.483 ms |
+| 800 | 3.012 ms | 26.880 ms |
+| 1,500 | 6.032 ms | 99.534 ms |
 
 These results support the difference in how the algorithms scale. As the number of records increased the bubble sort needed a lot more time than the merge sort. This also showed that the Python files were successful and that the comparison assertion passed. It also proved that the ascending order and valid records were correct. These checks helped show that the algorithm can handle these kinds of records in the dashboard. 
 
@@ -61,4 +59,4 @@ Another challenge was altering the existing original application, so the new sor
 ## Reflection:
 Throughout this enhancement I increased my understanding of algorithm design and how it affects an existing application. Picking an algorithm needs more than just checking the Big O complexity. I reliable implementation needs to foresee equal values, missing or invalid records, incorrect inputs, changes to shared data, and the interactive interface.
 	
-Separating the algorithm from the dashboard made it easier to test the concerns and implement the validated behavior. I learned how to use performance measurements to provide evidence of a design decision while understanding their limits. This enhancement  helped my ability to put together algorithmic concepts and explain their tradeoffs. 
+Separating the algorithm from the dashboard made it easier to test the concerns and implement the validated behavior. I learned how to use performance measurements to provide evidence of a design decision while understanding their limits. This enhancement  helped my ability to put together algorithmic concepts and explain their tradeoffs.

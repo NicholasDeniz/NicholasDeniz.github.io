@@ -1,9 +1,9 @@
-## Nicholas Deniz
-## CS-499 Capstone Grazioso Salvare Databases Enhancement Narrative
-## Professor Satish Penmatsa
-## 10/3/2026
-
-[Back to portfolio](https://nicholasdeniz.github.io/)
+---
+layout: default
+title: A closer look at database retrieval.
+category: Databases · CS 499
+description: Pagination, validated queries, and a measured MongoDB index comparison. Academic enhancement narrative · October 2026.
+---
 
 ## Artifact Description and Reason for Choice:
 The artifact I chose for Enhancement Three is the Grazioso Salvare animal rescue dashboard. I originally worked on it in CS 340 Client/Server Development in April 2026 and have improved upon it in CS 499 during September and October of 2026. The application uses Python and MongoDB to retrieve animal records. Dash makes certain things possible like the interactive dashboard, which can display a table, a breed pie chart, and a map. Users can choose water rescue, mountain or wilderness rescue, or disaster or individual tracking to get animals that meet the rescue criteria. 
@@ -32,16 +32,13 @@ I identified one specific index and compared query execution before and after in
 
 I compared the same Water Rescue request before and after creating the index. I searched for dogs under the water rescue criteria, the water rescue breeds, Intact Female, and an age from 26 to 156 weeks. Both measurements used the same returned fields, _id ordering, and first page limit of 10. The measurement code ran it three times and took the median time. 
 
-| Measurement |	Before Index |	After Index |
-
+| Measurement | Before index | After index |
+| --- | ---: | ---: |
 | Animals returned on page | 10 | 10 |
-
 | Animal records examined | 4,222 | 17 |
-
 | Index entries examined | 4,222 | 22 |
-
 | Median time | 4 ms | 0 ms |
-	
+
 The results are in index_before.json and index_comparison.json. The comparison code checked that the total number of matching animals and the real first page records stayed the same. MongoDB examined about 99 percent fewer animal records after the index was added. The 22 index entries are lookup entries examined. 
 
 The saved query plans, which showed the MongoDB steps it took, helped me understand why the work changed. Before the enhancement, MongoDB used the existing _id index and examined a lot of records to get rescue matches. After, it used the compound index to narrow the search. The later plan included a step to sort the results by _id. 
@@ -69,4 +66,4 @@ Outcome Four concerns appropriate tools to create computing solutions. I used Py
 
 Outcome Five concerns security problems. Approved fields and operators, page size limits, protected credentials, and safe error messages reduce risks. This shows progress toward a security mindset.
 ## Reflection:
-This enhancement helped me understand the original application better. Its CRUD methods taught me the path between Python and MongoDB, and its callbacks taught me how database results go to the user, I learned how to control the amount of information retrieves, keep features working even with changes to the application, and check if a change actually did help. I learned to support my decisions with evidence. The saved comparison shows the first page results with less database examination. Understanding that result, explaining the limits, and correcting problems caused by changing the data structure are the main skills I want showcased of this enhancement. 
+This enhancement helped me understand the original application better. Its CRUD methods taught me the path between Python and MongoDB, and its callbacks taught me how database results go to the user, I learned how to control the amount of information retrieves, keep features working even with changes to the application, and check if a change actually did help. I learned to support my decisions with evidence. The saved comparison shows the first page results with less database examination. Understanding that result, explaining the limits, and correcting problems caused by changing the data structure are the main skills I want showcased of this enhancement.

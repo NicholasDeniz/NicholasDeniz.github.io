@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="theme-color" content="#183e35">
+  <title>{{ page.title | escape }} | Nicholas Deniz</title>
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Nicholas Deniz, home"><span class="monogram">nd<span>.</span></span><span>Nicholas Deniz</span></a>
+    <nav aria-label="Main navigation"><a href="{{ '/#work' | relative_url }}">Work</a><a href="{{ '/#about' | relative_url }}">About</a><a href="{{ '/#contact' | relative_url }}">Contact ↗</a></nav>
+  </header>
+  <main id="main" class="document-page">
+    <a class="document-back" href="{{ '/#work' | relative_url }}">← Back to portfolio</a>
+    <header class="document-header"><p class="eyebrow">{{ page.category | default: 'Portfolio notes' | escape }}</p><h1>{{ page.title | escape }}</h1><p>{{ page.description | escape }}</p></header>
+    <article class="document-content">{{ content }}</article>
+    <div class="document-footer"><a href="{{ '/#work' | relative_url }}">← Explore the projects</a><button class="print-profile" type="button">Print this page ↗</button></div>
+  </main>
+  <footer class="site-footer wrap"><span>© 2026 Nicholas Deniz</span><span>Computer Science · Southern New Hampshire University</span><a href="https://github.com/NicholasDeniz">GitHub ↗</a></footer>
+</body>
+</html>

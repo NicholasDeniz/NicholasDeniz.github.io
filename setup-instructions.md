@@ -1,65 +1,72 @@
-[Back to portfolio](https://nicholasdeniz.github.io/)
+---
+layout: default
+title: Run the projects.
+category: Project documentation
+description: Requirements and setup notes for Travlr Getaways and Grazioso Salvare.
+---
 
-# Travlr Getaways - Setup
-## Requirements
+## Travlr Getaways - Setup
+### Requirements
 - Node.js 24.15 or later
 - MongoDB running on port 27017
 - A JWT_SECRET environment variable
 
 The application uses the travlr database.
 
-## Run Application
+### Run Application
 Load sample trips before starting server. The seed command replaces existing trips. So use it only for a fresh start.
 
-Open a terminal in app.js:
+Open a terminal in the folder containing app.js:
 
+```sh
 npm ci
-
 node -r dotenv/config app_api/models/seed.js
-
 npm start
+```
 
 Open another terminal:
 
+```sh
 cd app_admin
-
 npm ci
-
 npx ng serve
+```
 
 Go to http://localhost:4200. Make sure to keep both terminals running.
 
-## Accounts and Features
+### Accounts and Features
 Create an account by sending a POST request on Postman to http://localhost:3000/api/register with JSON name, email, and password.
 
 New accounts will be assigned with the customer role. Customers can create, view, and cancel their own bookings.
 
 To test admin features change the accounts role to admin in travlr.users collection and then log in again. Admins can manage trips.
 
-# Grazioso Salvare - Setup
-## Requriements
+## Grazioso Salvare - Setup
+### Requirements
 - Python
 - MongoDB running on port 27017
 - The animal shelter dataset loaded into animals collection of the aac database.
 - MongoDB login. The default authentication database is admin.
 
-## Run the Dashboard
+### Run the Dashboard
 Open a terminal in the enhancement folder:
 
+```sh
 python -m pip install dash dash-leaflet plotly pandas numpy matplotlib pymongo jupyterlab
-
 python -m jupyterlab
+```
 
 Open ProjectTwoDashboard.ipynb. Run the login cell, enter MongoDB credentials, and then run the dashboard cell.
 
-## The Enhancements
+### The Enhancements
 Enhancement Two:
 
 Choose a rescue category and sort by age, name, or breed in either direction. Run the checks with:
 
+```sh
 python test_checks.py
-
 python compare_sorts.py
+```
 
 Enhancement Three:
 
