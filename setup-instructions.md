@@ -6,7 +6,9 @@ description: Requirements and setup notes for Travlr Getaways and Grazioso Salva
 ---
 
 ## Travlr Getaways - Setup
+
 ### Requirements
+
 - Node.js 24.15 or later
 - MongoDB running on port 27017
 - A JWT_SECRET environment variable
@@ -14,6 +16,7 @@ description: Requirements and setup notes for Travlr Getaways and Grazioso Salva
 The application uses the travlr database.
 
 ### Run Application
+
 Load sample trips before starting server. The seed command replaces existing trips. So use it only for a fresh start.
 
 Open a terminal in the folder containing app.js:
@@ -35,6 +38,7 @@ npx ng serve
 Go to http://localhost:4200. Make sure to keep both terminals running.
 
 ### Accounts and Features
+
 Create an account by sending a POST request on Postman to http://localhost:3000/api/register with JSON name, email, and password.
 
 New accounts will be assigned with the customer role. Customers can create, view, and cancel their own bookings.
@@ -42,13 +46,16 @@ New accounts will be assigned with the customer role. Customers can create, view
 To test admin features change the accounts role to admin in travlr.users collection and then log in again. Admins can manage trips.
 
 ## Grazioso Salvare - Setup
+
 ### Requirements
+
 - Python
 - MongoDB running on port 27017
 - The animal shelter dataset loaded into animals collection of the aac database.
 - MongoDB login. The default authentication database is admin.
 
 ### Run the Dashboard
+
 Open a terminal in the enhancement folder:
 
 ```sh
@@ -59,6 +66,7 @@ python -m jupyterlab
 Open ProjectTwoDashboard.ipynb. Run the login cell, enter MongoDB credentials, and then run the dashboard cell.
 
 ### The Enhancements
+
 Enhancement Two:
 
 Choose a rescue category and sort by age, name, or breed in either direction. Run the checks with:

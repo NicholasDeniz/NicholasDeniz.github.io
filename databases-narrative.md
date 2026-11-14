@@ -6,10 +6,12 @@ description: Pagination, validated queries, and a measured MongoDB index compari
 ---
 
 ## Artifact Description and Reason for Choice:
+
 The artifact I chose for Enhancement Three is the Grazioso Salvare animal rescue dashboard. I originally worked on it in CS 340 Client/Server Development in April 2026 and have improved upon it in CS 499 during September and October of 2026. The application uses Python and MongoDB to retrieve animal records. Dash makes certain things possible like the interactive dashboard, which can display a table, a breed pie chart, and a map. Users can choose water rescue, mountain or wilderness rescue, or disaster or individual tracking to get animals that meet the rescue criteria. 
 
 I chose this artifact because it gave me an application that I already worked on and knew about, something I could improve and understand. My second enhancement category also used this artifact, which focused on sorting animal records after Python retrieved them. The third enhancement focuses on how MongoDB finds and sends back those records. It belongs in my ePortfolio because it shows I can understand existing code, improve database retrieval, and explain how I did it. 
 ## What I learned from the Original Artifact:
+
 The original application was an important part in my learning. The AnimalShelter class showed me how Python connects to MongoDB and how does create, read, update, and delete operations, also known as CRUD. The dashboard showed me how a callback, a function that runs when a control changes, connects a user’s choice to a database request and then refreshes the screen. Following the laid-out path helped me understand how the database and interface work together. 
 
 I built upon that structure. I kept the AnimalShelter class, CRUD methods, rescue categories, and most of the dashboard layout. The original read method used MongoDB’s find operation and took the results into a Python list. I used a similar idea when creating read_page, which would retrieve a small set of records and return the total number of matches. 
@@ -54,6 +56,7 @@ Pagination changed the sorting and breed chart. The merge-sort now organizes onl
 	
 I considered the limits of my choices. Indexes need extra storage and maintenance when data changes, so adding more indexes doesn’t just make things better. The skip and limit pagination is simple and direct, but later pages can take more work as MongoDB skips more results. I also separate a count request to display the total. These tradeoffs help me keep changes realistic while understanding that a larger application would need to take a different approach. 
 ## Course Outcomes:
+
 I met the goals I planned for in Module One and kept the 5 course outcomes in mind. My original plan didn’t change except for measuring the before and after of the index. This work follows my original plan to improve database retrieval. 
 	
 Outcome One concerns supporting collaboration and decision making. My Git history, separate enhancements, comments, and saved comparison results make the changes easy for another person to review. Listening to the Professors request for measurements showed that I can use feedback to improve my work. 
@@ -66,4 +69,5 @@ Outcome Four concerns appropriate tools to create computing solutions. I used Py
 
 Outcome Five concerns security problems. Approved fields and operators, page size limits, protected credentials, and safe error messages reduce risks. This shows progress toward a security mindset.
 ## Reflection:
+
 This enhancement helped me understand the original application better. Its CRUD methods taught me the path between Python and MongoDB, and its callbacks taught me how database results go to the user, I learned how to control the amount of information retrieves, keep features working even with changes to the application, and check if a change actually did help. I learned to support my decisions with evidence. The saved comparison shows the first page results with less database examination. Understanding that result, explaining the limits, and correcting problems caused by changing the data structure are the main skills I want showcased of this enhancement.
