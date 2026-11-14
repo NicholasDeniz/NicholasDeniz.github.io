@@ -1,99 +1,446 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Nicholas Deniz — software engineer and SNHU Computer Science graduate. Explore full-stack development, algorithm design, and measured MongoDB query improvements.">
-  <meta name="theme-color" content="#183e35">
-  <meta property="og:title" content="Nicholas Deniz | Software Engineer">
-  <meta property="og:description" content="Nicholas Deniz's Computer Science portfolio: full-stack development, algorithms, and databases.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://nicholasdeniz.github.io/">
-  <title>Nicholas Deniz | Software Engineer</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/site.css?v=2">
-  <script src="assets/js/site.js?v=2" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="brand" href="./" aria-label="Nicholas Deniz, home"><span class="monogram">nd<span>.</span></span><span>Nicholas Deniz</span></a>
-    <nav aria-label="Main navigation"><a href="#work">Projects</a><a href="#about">About</a></nav>
-  </header>
-  <main id="main">
-    <section class="hero wrap" aria-labelledby="intro-title">
-      <div class="hero-copy">
-        <p class="eyebrow">Computer Science graduate</p>
-        <h1 id="intro-title">Nicholas <em>Deniz</em></h1>
-        <p class="hero-description">These are the projects I worked on for my CS 499 capstone at SNHU. They cover full-stack development, algorithms, and databases.</p>
-        <div class="hero-actions"><a class="button button-dark" href="#work">View projects <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/NicholasDeniz">GitHub <span aria-hidden="true">↗</span></a></div>
-        <div class="graduate-line"><span>Southern New Hampshire University</span><span class="mono">3.976 GPA</span></div>
-      </div>
-    </section>
-
-    <section id="work" class="work-section wrap" aria-labelledby="work-title">
-      <div class="section-heading"><div><p class="eyebrow">CS 499 / 2026</p><h2 id="work-title">School projects</h2></div><p>Two applications, three enhancements.</p></div>
-
-      <article class="project project-travlr" aria-labelledby="travlr-title">
-        <div class="project-visual permission-visual">
-          <div class="visual-top mono"><span>TRAVLR GETAWAYS</span><span>01 / FULL STACK</span></div>
-          <div class="permission-board"><div class="permission-title"><strong>User permissions</strong></div>
-            <div class="permission-row"><span>Visitor</span><span>View trips</span></div>
-            <div class="permission-row"><span>Customer</span><span>Manage own bookings</span></div>
-            <div class="permission-row"><span>Admin</span><span>Add, edit, and delete trips</span></div>
-            <div class="permission-footer"><span class="status-dot" aria-hidden="true"></span> Permissions enforced by the API</div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Nicholas Deniz — software engineer and SNHU Computer Science graduate. Explore full-stack development, algorithm design, and measured MongoDB query improvements."
+    />
+    <meta name="theme-color" content="#183e35" />
+    <meta property="og:title" content="Nicholas Deniz | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Nicholas Deniz's Computer Science portfolio: full-stack development, algorithms, and databases."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nicholasdeniz.github.io/" />
+    <title>Nicholas Deniz | Software Engineer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/site.css?v=2" />
+    <script src="assets/js/site.js?v=2" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="brand" href="./" aria-label="Nicholas Deniz, home">
+        <!-- prettier-ignore -->
+        <span class="monogram">nd<span>.</span></span>
+        <span>Nicholas Deniz</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Projects</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- Introduction -->
+      <section class="hero wrap" aria-labelledby="intro-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Computer Science graduate</p>
+          <h1 id="intro-title">
+            Nicholas
+            <em>Deniz</em>
+          </h1>
+          <p class="hero-description">
+            These are the projects I worked on for my CS 499 capstone at SNHU. They cover full-stack
+            development, algorithms, and databases.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">
+              View projects
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a class="text-link" href="https://github.com/NicholasDeniz">
+              GitHub
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
-          <p class="visual-caption mono">Angular → Express / Node.js → MongoDB</p>
-        </div>
-        <div class="project-copy"><p class="eyebrow">Software design & engineering</p><h3 id="travlr-title">Travlr Getaways</h3><p class="project-deck">Customer bookings and role-based access.</p><p>I added bookings and separate customer and admin roles to an existing travel application.</p>
-          <ul class="project-points"><li>Server-side role checks protect trip management.</li><li>Customers create, view, and cancel their own bookings.</li><li>Ownership checks and a unique index prevent cross-account cancellations and duplicate bookings.</li></ul>
-          <div class="tags" aria-label="Technologies"><span>Angular</span><span>TypeScript</span><span>Express</span><span>MongoDB</span><span>JWT</span></div>
-          <div class="project-links"><a class="text-link" href="travlr-narrative.html">Project details <span aria-hidden="true">↗</span></a><a href="https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment">View code <span aria-hidden="true">↗</span></a></div>
-          <details><summary>Testing & scope</summary><p>Postman and Angular checks covered allowed operations, forbidden admin requests, invalid tokens, duplicate bookings, and deletion of trips with bookings. This is an academic enhancement to an existing application; customer booking edits and admin booking management remain future work.</p><a href="https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/module7">Compare the original code ↗</a></details>
-        </div>
-      </article>
-
-      <article class="project project-sort" aria-labelledby="sort-title">
-        <div class="project-visual sort-visual">
-          <div class="visual-top mono"><span>GRAZIOSO SALVARE</span><span>02 / ALGORITHMS</span></div>
-          <div class="sort-demo"><div class="demo-heading"><span>Sort animal records</span></div><p class="demo-description">Choose a field and sorting direction.</p>
-            <div class="demo-controls"><label for="sort-field">Sort by<select id="sort-field"><option value="age">Age</option><option value="name">Name</option><option value="breed">Breed</option></select></label><button type="button" id="sort-direction" aria-label="Change to descending order" aria-pressed="false">Ascending <span aria-hidden="true">↑</span></button></div>
-            <div class="demo-table"><div class="demo-table-head" aria-hidden="true"><span>Name / breed</span><span>Age</span></div><ol id="animal-list" aria-label="Illustrative animal records"><li><span><strong>Milo</strong><small>Labrador</small></span><span>26 <small>wks</small></span></li><li><span><strong>Luna</strong><small>Shepherd</small></span><span>52 <small>wks</small></span></li><li><span><strong>Scout</strong><small>Labrador</small></span><span>52 <small>wks</small></span></li><li><span><strong>Finn</strong><small>Retriever</small></span><span>—</span></li></ol></div>
-            <p id="sort-status" class="sort-status" role="status" aria-live="polite">Age, ascending. Missing values stay last.</p>
+          <div class="graduate-line">
+            <span>Southern New Hampshire University</span>
+            <span class="mono">3.976 GPA</span>
           </div>
-          <p class="visual-caption mono">Sample records · Sorting demo</p>
         </div>
-        <div class="project-copy"><p class="eyebrow">Algorithms & data structures</p><h3 id="sort-title">Animal record sorting</h3><p class="project-deck">Grazioso Salvare dashboard.</p><p>I wrote a Python merge sort and added controls to sort animal records by age, name, or breed.</p>
-          <ul class="project-points"><li>Equal values keep their original order.</li><li>Missing or invalid values stay last in either direction.</li><li>Six checks cover fields, directions, and edge cases without changing the input list.</li></ul>
-          <div class="result-line"><strong>6.032 ms</strong><span>merge sort vs. 99.534 ms bubble sort<br>1,500 synthetic records · median of 5 runs</span></div>
-          <div class="tags" aria-label="Technologies"><span>Python</span><span>Dash</span><span>pandas</span><span>Algorithm testing</span></div>
-          <div class="project-links"><a class="text-link" href="algorithm-narrative.html">Project details <span aria-hidden="true">↗</span></a><a href="https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo">View code <span aria-hidden="true">↗</span></a></div>
-          <details><summary>Benchmark details</summary><p>Merge sort uses O(n log n) time and O(n) auxiliary memory. The benchmark compares my implementation with bubble sort on generated records. It does not show an improvement over Python’s built-in sorting or the original dashboard’s table sorting.</p></details>
-        </div>
-      </article>
+      </section>
 
-      <article class="project project-database" aria-labelledby="database-title">
-        <div class="project-visual database-visual"><div class="visual-top mono"><span>GRAZIOSO SALVARE</span><span>03 / DATABASES</span></div>
-          <div class="query-proof"><p class="eyebrow">Water Rescue query</p><div class="query-number">4,222 <span aria-hidden="true">→</span> <strong>17</strong></div><p class="query-subtitle">Animal records examined before and after indexing.</p>
-            <div class="bar-label mono"><span>Before indexing</span><span>4,222</span></div><div class="query-bar before-bar" aria-hidden="true"></div><div class="bar-label mono"><span>After indexing</span><span>17</span></div><div class="query-bar after-bar" aria-hidden="true"></div>
-            <div class="query-footnote"><span class="proof-check" aria-hidden="true">✓</span><span>Matching count and first-page records checked for consistency.</span></div>
-          </div><p class="visual-caption mono">Saved MongoDB query measurements</p>
+      <!-- Capstone projects -->
+      <section id="work" class="work-section wrap" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CS 499 / 2026</p>
+            <h2 id="work-title">School projects</h2>
+          </div>
+          <p>Two applications, three enhancements.</p>
         </div>
-        <div class="project-copy"><p class="eyebrow">Database design & performance</p><h3 id="database-title">MongoDB query improvements</h3><p class="project-deck">Grazioso Salvare dashboard.</p><p>I added database pagination, field selection, input validation, and a compound index to the rescue dashboard.</p>
-          <ul class="project-points"><li>Retrieve 10 records per page instead of loading all matches.</li><li>Validate fields, operators, page sizes, and age ranges.</li><li>Compare query plans and save evidence before and after indexing.</li></ul>
-          <div class="tags" aria-label="Technologies"><span>MongoDB</span><span>PyMongo</span><span>Python</span><span>Query analysis</span></div>
-          <div class="project-links"><a class="text-link" href="databases-narrative.html">Project details <span aria-hidden="true">↗</span></a><a href="https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalavre-EnhancementThree">View code <span aria-hidden="true">↗</span></a></div>
-          <details><summary>Measurement & limits</summary><p>The saved Water Rescue comparison used the same filter, field selection, _id ordering, and 10-record limit. It describes one database find query. Results vary by query and dataset. Sorting and charts in this version apply to the current page; indexes also require storage and maintenance.</p><a href="https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal">Compare the original dashboard ↗</a></details>
+
+        <!-- Travlr Getaways -->
+        <article class="project project-travlr" aria-labelledby="travlr-title">
+          <div class="project-visual permission-visual">
+            <div class="visual-top mono">
+              <span>TRAVLR GETAWAYS</span>
+              <span>01 / FULL STACK</span>
+            </div>
+            <div class="permission-board">
+              <div class="permission-title"><strong>User permissions</strong></div>
+              <div class="permission-row">
+                <span>Visitor</span>
+                <span>View trips</span>
+              </div>
+              <div class="permission-row">
+                <span>Customer</span>
+                <span>Manage own bookings</span>
+              </div>
+              <div class="permission-row">
+                <span>Admin</span>
+                <span>Add, edit, and delete trips</span>
+              </div>
+              <div class="permission-footer">
+                <span class="status-dot" aria-hidden="true"></span>
+                Permissions enforced by the API
+              </div>
+            </div>
+            <p class="visual-caption mono">Angular → Express / Node.js → MongoDB</p>
+          </div>
+          <div class="project-copy">
+            <p class="eyebrow">Software design & engineering</p>
+            <h3 id="travlr-title">Travlr Getaways</h3>
+            <p class="project-deck">Customer bookings and role-based access.</p>
+            <p>
+              I added bookings and separate customer and admin roles to an existing travel
+              application.
+            </p>
+            <ul class="project-points">
+              <li>Server-side role checks protect trip management.</li>
+              <li>Customers create, view, and cancel their own bookings.</li>
+              <li>
+                Ownership checks and a unique index prevent cross-account cancellations and
+                duplicate bookings.
+              </li>
+            </ul>
+            <div class="tags" aria-label="Technologies">
+              <span>Angular</span>
+              <span>TypeScript</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+              <span>JWT</span>
+            </div>
+            <div class="project-links">
+              <a class="text-link" href="travlr-narrative.html">
+                Project details
+                <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment"
+              >
+                View code
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <details>
+              <summary>Testing & scope</summary>
+              <p>
+                Postman and Angular checks covered allowed operations, forbidden admin requests,
+                invalid tokens, duplicate bookings, and deletion of trips with bookings. This is an
+                academic enhancement to an existing application; customer booking edits and admin
+                booking management remain future work.
+              </p>
+              <a href="https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/module7">
+                Compare the original code ↗
+              </a>
+            </details>
+          </div>
+        </article>
+
+        <!-- Grazioso Salvare: sorting -->
+        <article class="project project-sort" aria-labelledby="sort-title">
+          <div class="project-visual sort-visual">
+            <div class="visual-top mono">
+              <span>GRAZIOSO SALVARE</span>
+              <span>02 / ALGORITHMS</span>
+            </div>
+            <div class="sort-demo">
+              <div class="demo-heading"><span>Sort animal records</span></div>
+              <p class="demo-description">Choose a field and sorting direction.</p>
+              <div class="demo-controls">
+                <label for="sort-field">
+                  Sort by
+                  <select id="sort-field">
+                    <option value="age">Age</option>
+                    <option value="name">Name</option>
+                    <option value="breed">Breed</option>
+                  </select>
+                </label>
+                <button
+                  type="button"
+                  id="sort-direction"
+                  aria-label="Change to descending order"
+                  aria-pressed="false"
+                >
+                  Ascending
+                  <span aria-hidden="true">↑</span>
+                </button>
+              </div>
+              <div class="demo-table">
+                <div class="demo-table-head" aria-hidden="true">
+                  <span>Name / breed</span>
+                  <span>Age</span>
+                </div>
+                <ol id="animal-list" aria-label="Illustrative animal records">
+                  <li>
+                    <span>
+                      <strong>Milo</strong>
+                      <small>Labrador</small>
+                    </span>
+                    <span>
+                      26
+                      <small>wks</small>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <strong>Luna</strong>
+                      <small>Shepherd</small>
+                    </span>
+                    <span>
+                      52
+                      <small>wks</small>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <strong>Scout</strong>
+                      <small>Labrador</small>
+                    </span>
+                    <span>
+                      52
+                      <small>wks</small>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <strong>Finn</strong>
+                      <small>Retriever</small>
+                    </span>
+                    <span>—</span>
+                  </li>
+                </ol>
+              </div>
+              <p id="sort-status" class="sort-status" role="status" aria-live="polite">
+                Age, ascending. Missing values stay last.
+              </p>
+            </div>
+            <p class="visual-caption mono">Sample records · Sorting demo</p>
+          </div>
+          <div class="project-copy">
+            <p class="eyebrow">Algorithms & data structures</p>
+            <h3 id="sort-title">Animal record sorting</h3>
+            <p class="project-deck">Grazioso Salvare dashboard.</p>
+            <p>
+              I wrote a Python merge sort and added controls to sort animal records by age, name, or
+              breed.
+            </p>
+            <ul class="project-points">
+              <li>Equal values keep their original order.</li>
+              <li>Missing or invalid values stay last in either direction.</li>
+              <li>
+                Six checks cover fields, directions, and edge cases without changing the input list.
+              </li>
+            </ul>
+            <div class="result-line">
+              <strong>6.032 ms</strong>
+              <span>
+                merge sort vs. 99.534 ms bubble sort
+                <br />
+                1,500 synthetic records · median of 5 runs
+              </span>
+            </div>
+            <div class="tags" aria-label="Technologies">
+              <span>Python</span>
+              <span>Dash</span>
+              <span>pandas</span>
+              <span>Algorithm testing</span>
+            </div>
+            <div class="project-links">
+              <a class="text-link" href="algorithm-narrative.html">
+                Project details
+                <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo"
+              >
+                View code
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <details>
+              <summary>Benchmark details</summary>
+              <p>
+                Merge sort uses O(n log n) time and O(n) auxiliary memory. The benchmark compares my
+                implementation with bubble sort on generated records. It does not show an
+                improvement over Python’s built-in sorting or the original dashboard’s table
+                sorting.
+              </p>
+            </details>
+          </div>
+        </article>
+
+        <!-- Grazioso Salvare: database queries -->
+        <article class="project project-database" aria-labelledby="database-title">
+          <div class="project-visual database-visual">
+            <div class="visual-top mono">
+              <span>GRAZIOSO SALVARE</span>
+              <span>03 / DATABASES</span>
+            </div>
+            <div class="query-proof">
+              <p class="eyebrow">Water Rescue query</p>
+              <div class="query-number">
+                4,222
+                <span aria-hidden="true">→</span>
+                <strong>17</strong>
+              </div>
+              <p class="query-subtitle">Animal records examined before and after indexing.</p>
+              <div class="bar-label mono">
+                <span>Before indexing</span>
+                <span>4,222</span>
+              </div>
+              <div class="query-bar before-bar" aria-hidden="true"></div>
+              <div class="bar-label mono">
+                <span>After indexing</span>
+                <span>17</span>
+              </div>
+              <div class="query-bar after-bar" aria-hidden="true"></div>
+              <div class="query-footnote">
+                <span class="proof-check" aria-hidden="true">✓</span>
+                <span>Matching count and first-page records checked for consistency.</span>
+              </div>
+            </div>
+            <p class="visual-caption mono">Saved MongoDB query measurements</p>
+          </div>
+          <div class="project-copy">
+            <p class="eyebrow">Database design & performance</p>
+            <h3 id="database-title">MongoDB query improvements</h3>
+            <p class="project-deck">Grazioso Salvare dashboard.</p>
+            <p>
+              I added database pagination, field selection, input validation, and a compound index
+              to the rescue dashboard.
+            </p>
+            <ul class="project-points">
+              <li>Retrieve 10 records per page instead of loading all matches.</li>
+              <li>Validate fields, operators, page sizes, and age ranges.</li>
+              <li>Compare query plans and save evidence before and after indexing.</li>
+            </ul>
+            <div class="tags" aria-label="Technologies">
+              <span>MongoDB</span>
+              <span>PyMongo</span>
+              <span>Python</span>
+              <span>Query analysis</span>
+            </div>
+            <div class="project-links">
+              <a class="text-link" href="databases-narrative.html">
+                Project details
+                <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalavre-EnhancementThree"
+              >
+                View code
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <details>
+              <summary>Measurement & limits</summary>
+              <p>
+                The saved Water Rescue comparison used the same filter, field selection, _id
+                ordering, and 10-record limit. It describes one database find query. Results vary by
+                query and dataset. Sorting and charts in this version apply to the current page;
+                indexes also require storage and maintenance.
+              </p>
+              <a
+                href="https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal"
+              >
+                Compare the original dashboard ↗
+              </a>
+            </details>
+          </div>
+        </article>
+      </section>
+
+      <!-- About and skills -->
+      <section id="about" class="about-section" aria-labelledby="about-title">
+        <div class="wrap about-grid">
+          <div>
+            <h2 id="about-title">About me</h2>
+            <p>
+              I’m looking for a full-stack, frontend, or backend engineering role, especially at a
+              startup. I like working through how a feature connects the interface, server, and
+              database.
+            </p>
+            <p>
+              I’m currently building a full-stack application with React, JavaScript, Express, and
+              AWS. It’s a way for me to keep practicing and learn more about system architecture.
+            </p>
+            <a class="text-link" href="professionalself-assessment.html">
+              Capstone self-assessment
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="toolbox">
+            <p class="eyebrow">Skills</p>
+            <div>
+              <h3>Frontend</h3>
+              <p>Angular · TypeScript · React · JavaScript</p>
+            </div>
+            <div>
+              <h3>Backend & data</h3>
+              <p>Node.js · Express · Python · MongoDB · PyMongo</p>
+            </div>
+            <div>
+              <h3>Testing & tools</h3>
+              <p>REST APIs · JWT · Git · Postman · JUnit</p>
+            </div>
+            <div>
+              <h3>Learning</h3>
+              <p>AWS · System architecture</p>
+            </div>
+          </div>
         </div>
-      </article>
-    </section>
+      </section>
 
-    <section id="about" class="about-section" aria-labelledby="about-title"><div class="wrap about-grid"><div><h2 id="about-title">About me</h2><p>I’m looking for a full-stack, frontend, or backend engineering role, especially at a startup. I like working through how a feature connects the interface, server, and database.</p><p>I’m currently building a full-stack application with React, JavaScript, Express, and AWS. It’s a way for me to keep practicing and learn more about system architecture.</p><a class="text-link" href="professionalself-assessment.html">Capstone self-assessment <span aria-hidden="true">↗</span></a></div>
-      <div class="toolbox"><p class="eyebrow">Skills</p><div><h3>Frontend</h3><p>Angular · TypeScript · React · JavaScript</p></div><div><h3>Backend & data</h3><p>Node.js · Express · Python · MongoDB · PyMongo</p></div><div><h3>Testing & tools</h3><p>REST APIs · JWT · Git · Postman · JUnit</p></div><div><h3>Learning</h3><p>AWS · System architecture</p></div></div>
-    </div></section>
-
-    <section class="resources-section wrap" aria-labelledby="resources-title"><div><h2 id="resources-title">Documentation</h2><p>Setup notes and supporting capstone material.</p></div><div class="resource-links"><a href="https://www.youtube.com/watch?v=Bb94dRamimo"><span><strong>Code review</strong><small>Original applications and enhancement plans</small></span><span aria-hidden="true">↗</span></a><a href="setup-instructions.html"><span><strong>Setup instructions</strong><small>Run the projects locally</small></span><span aria-hidden="true">↗</span></a><a href="CS499-Capstone-Travlr-Enhancement-Narrative.docx"><span><strong>Travlr narrative</strong><small>Write-up with screenshots · Word</small></span><span aria-hidden="true">↓</span></a></div></section>
-  </main>
-  <footer class="site-footer wrap"><span>© 2026 Nicholas Deniz</span><a href="https://github.com/NicholasDeniz">GitHub ↗</a><a href="#main">Back to top ↑</a></footer>
-</body>
+      <!-- Documentation -->
+      <section class="resources-section wrap" aria-labelledby="resources-title">
+        <div>
+          <h2 id="resources-title">Documentation</h2>
+          <p>Setup notes and supporting capstone material.</p>
+        </div>
+        <div class="resource-links">
+          <a href="https://www.youtube.com/watch?v=Bb94dRamimo">
+            <span>
+              <strong>Code review</strong>
+              <small>Original applications and enhancement plans</small>
+            </span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a href="setup-instructions.html">
+            <span>
+              <strong>Setup instructions</strong>
+              <small>Run the projects locally</small>
+            </span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a href="CS499-Capstone-Travlr-Enhancement-Narrative.docx">
+            <span>
+              <strong>Travlr narrative</strong>
+              <small>Write-up with screenshots · Word</small>
+            </span>
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <span>© 2026 Nicholas Deniz</span>
+      <a href="https://github.com/NicholasDeniz">GitHub ↗</a>
+      <a href="#main">Back to top ↑</a>
+    </footer>
+  </body>
 </html>
