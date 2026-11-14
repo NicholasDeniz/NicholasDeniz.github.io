@@ -1,6 +1,4 @@
-/* Fonts and theme variables */
-
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=DM+Serif+Display:ital@0;1&display=swap");
+/* Theme variables */
 
 :root {
   --paper: #f7f7f2;
@@ -45,17 +43,11 @@ a:hover {
   text-underline-offset: 5px;
 }
 
-button,
 select {
   font: inherit;
 }
 
-button {
-  cursor: pointer;
-}
-
 a,
-button,
 summary,
 select {
   -webkit-tap-highlight-color: transparent;
@@ -329,17 +321,17 @@ p {
   margin-bottom: 14px;
 }
 
-.project-copy > p:not(.eyebrow) {
+.project-copy > p:not(.eyebrow):not(.project-deck) {
   font-size: 14px;
   color: var(--muted);
   line-height: 1.8;
 }
 
 .project-copy .project-deck {
-  font-size: 15px !important;
+  font-size: 15px;
   font-weight: 500;
-  color: var(--ink) !important;
-  line-height: 1.6 !important;
+  color: var(--ink);
+  line-height: 1.6;
   margin-bottom: 14px;
 }
 
@@ -360,13 +352,15 @@ p {
 }
 
 .tags {
+  list-style: none;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
   margin: 22px 0;
 }
 
-.tags span {
+.tags li {
   font-family: var(--mono);
   font-size: 10px;
   background: #e9ede5;
@@ -486,10 +480,6 @@ details a {
   color: #677063;
 }
 
-.permission-row > span:last-child span {
-  margin-left: 12px;
-}
-
 .permission-footer {
   font-size: 9px;
   margin-top: 18px;
@@ -539,10 +529,19 @@ details a {
   margin-bottom: 17px;
 }
 
-.demo-controls label {
-  font-size: 9px;
-  color: #66695f;
+.demo-controls[hidden] {
+  display: none;
+}
+
+.demo-field {
   flex: 1;
+  min-width: 0;
+}
+
+.demo-controls label {
+  display: block;
+  font-size: 11px;
+  color: #66695f;
 }
 
 .demo-controls select {
@@ -555,31 +554,16 @@ details a {
   border-radius: 3px;
   font-size: 11px;
   color: var(--ink);
-  min-height: 34px;
-}
-
-.demo-controls button {
-  background: var(--green);
-  color: white;
-  border: 0;
-  border-radius: 3px;
-  padding: 8px 10px;
-  font-size: 10px;
-  min-height: 34px;
-  min-width: 107px;
-}
-
-.demo-controls button:hover {
-  background: #2e584b;
+  min-height: 44px;
 }
 
 .demo-table-head {
   display: flex;
   justify-content: space-between;
-  font-size: 8px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  color: #828576;
+  color: #606b5e;
   padding-bottom: 7px;
   border-bottom: 1px solid #e2e4da;
 }
@@ -601,13 +585,13 @@ details a {
 
 #animal-list strong {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
 }
 
 #animal-list small {
-  font-size: 9px;
-  color: #747b6d;
+  font-size: 11px;
+  color: #606b5e;
 }
 
 #animal-list > li > span > small {
@@ -616,7 +600,7 @@ details a {
 
 .sort-status {
   margin: 12px 0 0;
-  font-size: 9px;
+  font-size: 11px;
   color: #66735f;
   min-height: 15px;
 }
@@ -785,9 +769,9 @@ details a {
   margin: 0 0 5px;
 }
 
-.toolbox > div p {
-  font-size: 12px !important;
-  line-height: 1.7 !important;
+.about-grid .toolbox p {
+  font-size: 12px;
+  line-height: 1.7;
 }
 
 /* Documentation links */
@@ -840,7 +824,7 @@ details a {
 }
 
 .resource-links > a > span:last-child {
-  color: #6d8457;
+  color: #526b43;
 }
 
 /* Footer */
@@ -1135,7 +1119,7 @@ details a {
     font-size: 32px;
   }
 
-  .project-copy > p:not(.eyebrow) {
+  .project-copy > p:not(.eyebrow):not(.project-deck) {
     font-size: 14px;
   }
 
@@ -1172,10 +1156,6 @@ details a {
     grid-template-columns: 1fr;
     gap: 22px;
     padding-block: 55px;
-  }
-
-  .resources-section .eyebrow {
-    margin-bottom: 15px;
   }
 
   .site-footer {
@@ -1235,10 +1215,6 @@ details a {
   .section-heading > p {
     margin-top: 17px;
     max-width: none;
-  }
-
-  .section-heading > p br {
-    display: none;
   }
 
   .visual-top {
@@ -1356,7 +1332,7 @@ details a {
     font-size: 20pt;
   }
 
-  .project-copy > p:not(.eyebrow) {
+  .project-copy > p:not(.eyebrow):not(.project-deck) {
     font-size: 10pt;
     line-height: 1.55;
   }
@@ -1371,7 +1347,7 @@ details a {
     margin: 10px 0;
   }
 
-  .tags span {
+  .tags li {
     background: none;
     padding: 0 10px 0 0;
     font-size: 8pt;
@@ -1411,8 +1387,8 @@ details a {
     font-size: 10pt;
   }
 
-  .toolbox > div p {
-    font-size: 9pt !important;
+  .about-grid .toolbox p {
+    font-size: 9pt;
   }
 
   .document-page {

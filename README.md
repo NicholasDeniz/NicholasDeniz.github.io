@@ -1,55 +1,60 @@
-# CS 499 Capstone ePortfolio
+# Nicholas Deniz — Portfolio
 
-This portfolio showcases the skills I have learned throughout the computer science program. 
+[View the portfolio](https://nicholasdeniz.github.io/)
 
-## Professional Self-Assessment
+Computer Science portfolio built with HTML, CSS, JavaScript, and Jekyll. GitHub Pages publishes the site from the repository's main branch.
 
-[Go to Professional Self-Assessment](professionalself-assessment.md)
+## Source files
 
-## Setup Instructions
+| Path                                | Purpose                                             |
+| ----------------------------------- | --------------------------------------------------- |
+| `index.html`                        | Homepage and project summaries                      |
+| `assets/css/site.css`               | Shared styles, responsive layouts, and print styles |
+| `assets/js/site.js`                 | Sorting demonstration with sample records           |
+| `_layouts/default.html`             | Shared layout for narrative and setup pages         |
+| `*-narrative.md`                    | Academic project narratives and measurements        |
+| `professionalself-assessment.md`    | Capstone reflection                                 |
+| `setup-instructions.md`             | Instructions for running the linked applications    |
+| `_config.yml`                       | Jekyll and GitHub Pages configuration               |
+| `.prettierrc.json`, `.editorconfig` | Source formatting settings                          |
 
-[Go to Setup Instructions](setup-instructions.md)
+## Local preview
 
-## Code Review
+From the repository root, run:
 
-My code review goes through the original Travlr Getaways and Grazioso Salvare projects. I explain how the artifacts work, find weaknesses and ways to improve it, and describe the enhancements I plan to make. 
+```sh
+python -m http.server 8000
+```
 
-[Go to Code Review](https://www.youtube.com/watch?v=Bb94dRamimo)
+Open http://localhost:8000 to preview the homepage and its assets. The Markdown pages use Jekyll; follow [GitHub's local Jekyll setup instructions](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) to preview the full site.
 
-# Artifacts
+## Formatting and checks
 
-## Travlr Getaways: Enhancement One
+With Node.js and npm installed:
 
-Travlr Getaways is a full stack web application that I enhanced within the Software Engineering and Design category.
+```sh
+npx --yes prettier@3.6.2 --write index.html _layouts/default.html assets/css/site.css assets/js/site.js .prettierrc.json
+npx --yes prettier@3.6.2 --check index.html _layouts/default.html assets/css/site.css assets/js/site.js .prettierrc.json
+node --check assets/js/site.js
+npx --yes html-validate@11.21.1 --preset standard,a11y index.html
+```
 
-[Go to the Original Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development)<br>
+Before publishing, check the homepage and supporting pages at phone and desktop widths. Use the keyboard to navigate links, open project details, and operate both sorting selects. Check ascending and descending order for age, name, and breed. Missing ages should remain last, and equal values should keep their original order.
 
-[Go to the Original Travlr Getaways code](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/module7)<br>
+## Publishing
 
-[Go to Enhancement One Travlr Getaways repository](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment)<br>
+Push changes to `main`, wait for the **pages build and deployment** workflow to succeed, and check the live site. Keep the narrative filenames stable so existing links continue to work. Update the asset version query in the homepage and shared layout when changing CSS or JavaScript.
 
-[Go to Enhancement One Travlr Getaways Narrative](travlr-narrative.md)<br>
+## Project material
 
-[Download the full Travlr narrative from Microsoft Word with screenshots](CS499-Capstone-Travlr-Enhancement-Narrative.docx)<br>
+| Enhancement                      | Code                                                                                                                       | Narrative                                     |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Travlr Getaways: software design | [Enhanced application](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/CS499-travlr-enhanchment)       | [Travlr narrative](travlr-narrative.md)       |
+| Grazioso Salvare: algorithms     | [Sorting enhancement](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)    | [Algorithm narrative](algorithm-narrative.md) |
+| Grazioso Salvare: databases      | [Database enhancement](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalavre-EnhancementThree) | [Database narrative](databases-narrative.md)  |
 
-## Grazioso Salvare: Enhancement Two
+Original code: [Travlr Getaways](https://github.com/NicholasDeniz/CS-465-Full-Stack-Development/tree/module7) and [Grazioso Salvare](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal).
 
-Grazioso Salvare is a Python and MongoDB application that I enhanced within the Algorithms and Data Structures category. I enhanced the Grazioso dashboard by adding a merge sort algorithm. Users are able to sort animal records by age, name, or breed in either ascending or descending order to provide a better experience for the user. It also compares the merge sort and bubble sort to give reason why I chose merge sort. 
+Supporting material: [code review](https://www.youtube.com/watch?v=Bb94dRamimo), [self-assessment](professionalself-assessment.md), [application setup](setup-instructions.md), and [Travlr narrative with screenshots](CS499-Capstone-Travlr-Enhancement-Narrative.docx).
 
-[Go to Original Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal)<br>
-
-[Go to Enhancement Two Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)<br>
-
-[Go to Enhancement Two Grazioso Salvare Narrative](algorithm-narrative.md)<br>
-
-## Grazioso Salvare: Enhancement Three
-
-Grazioso Salvare is a Python and MongoDB application that I enhanced within the Databases category. I built off of enhancement two because I'm using the same artifact. I enhanced the Grazioso Salvare dashboard and how it retrieves information from MongoDB. This includes reusable filters, retrieving a page of records at a time, returning the picked fields only, and request validation. I also included a way to compare query performance before and after adding an index.
-
-[Go to Original Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/main/CS340-GraziosoSalvareOriginal)<br>
-
-[Go to Enhancement Two Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalvare-EnhancementTwo)<br>
-
-[Go to Enhancement Three Grazioso Salvare repository](https://github.com/NicholasDeniz/CS340-GraziosoSalvare/tree/CS499-GraziosoSalavre-EnhancementThree)<br>
-
-[Go to Enhancement Three Grazioso Salvare Narrative](databases-narrative.md)<br>
+These applications began as course projects and were extended for CS 499. The homepage sorting demo uses sample records. The performance figures come from the saved academic comparisons; their scope and limits are explained in the narratives.

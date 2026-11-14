@@ -11,7 +11,7 @@ Travlr Getaways is the artifact I have chosen to enhance to fulfil the first enh
 
 ## Why I selected this Artifact and How I then Improved it:
 
-I selected Travlr because it was a fully completed full stack project that I documented on Github. It included a frontend, authentication, a database, and APIs. It was a good artifact that showed my skills in software design and engineering. Showing that I can understand a full stack application and improve it.
+I selected Travlr because it was a fully completed full stack project that I documented on GitHub. It included a frontend, authentication, a database, and APIs. It was a good artifact that showed my skills in software design and engineering. Showing that I can understand a full stack application and improve it.
 
 The main idea of the enhancement was to add customer and admin roles. This required changes to MongoDB schemas, JWT, Express middleware, routes, controllers, components, templates, and navigation. The user model stores a customer or admin role. New accounts would be given a customer role by default. This follows the security mindset of giving users the least number of permissions. The role would be included in the user’s JSON Web Token. When the server receives a request, it will verify the token and check the role before allowing the request to continue. Admin operations are also protected on the server. Only an admin can add, update, or delete any of the trips. Customers also have their own protected booking operations. This was a secure way to stop those making unauthorized requests to the API. Letting the server make the final decision to allow it or not.
 
@@ -21,7 +21,7 @@ The Angular frontend application was updated to stay up to date with these backe
 
 The enhancement also improves error handling and defensive programming. Incorrect authorization headers return an authentication error. Duplicate bookings return a conflict response. A trip with an existing booking can’t be deleted. Trip updates run schema validators. Registration ignores requested role and creates a customer. Database failures return secure reliable messages.
 
-These changes show multiple software design and engineering skills. Showing that I can work with the UI, REST API’s, authentication and authorizations system, and a database. The show I understand routes, controllers, database models, async operations, HTTP status codes, and role-based access.
+These changes show multiple software design and engineering skills. Showing that I can work with the UI, REST API’s, authentication and authorizations system, and a database. These changes show that I understand routes, controllers, database models, async operations, HTTP status codes, and role-based access.
 ## Testing:
 
 I tested the enhancement using Postman and the Angular application with both an admin and customer account. Using the admin account, I created a test trip and got an HTTP 201 Created. I then saw that the trip was displayed in the Angular trip list. Using the customer account, I tried to create, update, and delete trips through Postman. I got an HTTP 403 Forbidden with the message “Admin role needed.”. These checks showed that the server was keeping to the admin permissions even when the requests were sent directly. I also tested booking creation and duplicate booking rejection. The first booking returned HTTP 201 Created, while repeating it returned HTTP 409 Conflict with the message “This trip was already booked.”. The Angular My Bookings page showed the test trip. The results showed evidence that authorized operations worked while unauthorized operations didn’t work.
@@ -37,7 +37,7 @@ Booking model. The app_api/models/booking.js file defines users and trips togeth
 
 Booking controllers. The app_api/controllers/bookings.js file controls the customer booking logic. The listing controller filters bookings with the user is from the JWT and populates the specific trip info. The creating controller finds the selected trip and puts the new booking with the req.auth._id. The cancel controller uses the bookings id and authenticated user if in the delete query. Preventing a customer from cancelling other customers’ booking.
 
-Trip controller. The app_api/controllers/trips.js file has trip retrieval and admin operations. Trip updates run Achema validators and return an updated record. Before deleting a trip, the controller would check if the booking collection had a record that references it. If a booking exists, the API will return an HTTP 409 conflict response instead.
+Trip controller. The app_api/controllers/trips.js file has trip retrieval and admin operations. Trip updates run schema validators and return an updated record. Before deleting a trip, the controller would check if the booking collection had a record that references it. If a booking exists, the API will return an HTTP 409 conflict response instead.
 
 Angular authentication service. The AuthenticationService reads the role stored in the JWT and provides reusable isAdmin and isCustomer methods. Components and templates use these methods. The service also manages token storage, login, registration, and logout.
 
