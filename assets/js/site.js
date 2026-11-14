@@ -76,7 +76,3 @@ if (sortField && sortDirection && animalList && sortStatus) {
   });
   renderAnimals();
 }
-
-document.querySelectorAll('.print-profile').forEach(button => {
-  button.addEventListener('click', () => window.print());
-});

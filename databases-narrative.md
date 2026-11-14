@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A closer look at database retrieval.
+title: 'Grazioso Salvare: Database queries'
 category: Databases · CS 499
 description: Pagination, validated queries, and a measured MongoDB index comparison. Academic enhancement narrative · October 2026.
 ---

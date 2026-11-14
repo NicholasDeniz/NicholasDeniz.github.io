@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stable sorting, tested carefully.
+title: 'Grazioso Salvare: Merge sort'
 category: Algorithms & data structures · CS 499
 description: A custom Python merge sort for the Grazioso Salvare dashboard. Academic enhancement narrative · September 2026.
 ---

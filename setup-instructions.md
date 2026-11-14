@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Run the projects.
+title: Setup instructions
 category: Project documentation
 description: Requirements and setup notes for Travlr Getaways and Grazioso Salvare.
 ---
